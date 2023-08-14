@@ -18,6 +18,7 @@
     "importHelpers": true,
     "target": "es2020",
     "module": "es2020",
+    "baseUrl": "src",
     "lib": [
       "es2020",
       "dom"
@@ -28,5 +29,12 @@
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
     "strictTemplates": true
-  }
+  },
+  "paths": { 
+  // "path": [ "./node_modules/path-browserify" ],
+  // "stream": ["./node_modules/stream-browserify"],
+  // "http": ["./node_modules/stream-http"],    
+  // "crypto": ["./node_modules/crypto-browserify"],
+  "zlib": ["./node_modules/browserify-zlib"]
+}
 }
